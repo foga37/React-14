@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 
+import './component/style.css';
 import { CommentDetailPage, CommentsPage, HomePage, PostDetailPage, PostsPage, UserDetailPage, UsersPage } from './pages'
 
 const router = createBrowserRouter([
