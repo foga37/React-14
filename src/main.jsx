@@ -4,13 +4,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 
-import HomePage from './pages/HomePage';
-import UsersPage from './pages/UsersPage';
-import PostsPage from './pages/PostsPage';
-import CommentsPage from './pages/CommentsPage';
-import UserDetailPage from './pages/UserDetailPage';
-import PostDetailPage from './pages/PostDetailPage';
-import CommentDetailPage from './pages/CommentDetailPage';
+import { CommentDetailPage, CommentsPage, HomePage, PostDetailPage, PostsPage, UserDetailPage, UsersPage } from './pages'
 
 const router = createBrowserRouter([
   {
